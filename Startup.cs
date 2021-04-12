@@ -58,6 +58,8 @@ namespace burgershack
       //NOTE make sure to instantiate each service/repository you will use.
       services.AddTransient<BurgerService>();
       services.AddTransient<BurgerRepository>();
+      services.AddTransient<MenuService>();
+      services.AddTransient<MenuRepository>();
 
     }
 
